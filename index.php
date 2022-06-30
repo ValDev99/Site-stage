@@ -17,4 +17,3 @@ require('./assets/components/petiteGrille.php');
 <?php
 require('./assets/components/footer.php');
 ?>
-katon goukakyuu no jutsu

@@ -1,16 +1,35 @@
-<section id=grandeGrille>
-    <h2 id="titreGrandeGrille" >A LA DECOUVERTE DE <strong> NOS UNIVERS PRODUITS</strong></h2>
-    <div class="parent">
-        <div class="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nulla quisquam eaque. Magnam similique tempora ipsa incidunt repellat odio nemo quam saepe possimus quaerat sapiente inventore doloribus ratione, porro vel nihil culpa iste tenetur cumque officiis reprehenderit fuga veritatis obcaecati omnis? Facere magnam reprehenderit iure quidem enim similique autem earum. </div>
-        <div class="div2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, distinctio deserunt? Porro, ipsum eligendi! Saepe impedit molestiae nihil voluptatum aut doloribus magni, dicta ipsa qui optio esse quasi dolorum distinctio dolores, maxime molestias necessitatibus voluptate, tempore mollitia minima! Qui doloremque porro architecto earum nobis ducimus ullam eligendi assumenda ea in. </div>
-        <div class="div3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus totam ea numquam, eveniet eaque dolorem cum perspiciatis qui, dicta atque voluptas blanditiis sunt amet rem at excepturi enim, magnam corporis aperiam. Fuga numquam repudiandae debitis consequuntur, dolore id perspiciatis culpa optio a non ex soluta veritatis minus ullam repellendus quam voluptatum alias impedit eligendi? Maxime aperiam culpa consectetur laudantium hic quis dolorum cum in necessitatibus distinctio voluptate eligendi, itaque ipsum incidunt sapiente molestiae. Sed ipsam enim dolor. Delectus molestiae necessitatibus vel optio, totam laudantium repellendus fugit? Laboriosam corporis excepturi, fugiat ea vitae quae est nulla corrupti sed odio placeat? Voluptatibus! </div>
-        <div class="div4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae maiores culpa similique molestias saepe ea, sunt ipsum numquam, fuga illum pariatur asperiores repellat. Nihil eveniet, molestias iste minima, voluptas voluptatibus, omnis odit odio in non distinctio sit fugit deleniti unde est dolor. Soluta quaerat iste quam porro culpa, exercitationem adipisci obcaecati eius ab vel facere voluptates debitis, nobis eum illum voluptas optio assumenda repellat fugiat officiis recusandae. Vero possimus veniam, veritatis magni necessitatibus voluptas nulla commodi provident obcaecati nemo culpa temporibus officiis quam quas fuga, cupiditate quae, ad tempore fugit consequuntur. In, error omnis dolorem deleniti voluptatem quasi obcaecati! Ut. </div>
-        <div class="div5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, nam laudantium. Labore cumque, ab illum perferendis quo vel nulla libero sunt culpa officia molestiae repellat porro dolore nemo voluptatem quia accusamus autem non minima corporis debitis ad! Eveniet fugit earum amet neque provident vel harum consequatur sapiente. Voluptatibus, nemo est! </div>
-        <div class="div6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, eaque veritatis magni expedita nihil saepe voluptatem possimus explicabo harum aliquid facilis, laborum ut. Quaerat ut, reprehenderit autem nisi optio repellendus nihil! Cumque quam molestias repellat nisi dignissimos architecto voluptatem accusantium officia praesentium, debitis asperiores, quae commodi id quaerat. Labore, vitae. </div>
-        <div class="div7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum praesentium omnis debitis laudantium magni, esse sequi ipsum provident dolorum saepe est ab vitae velit culpa reiciendis numquam nisi cupiditate modi repellat ipsam enim. Provident, officia repellendus. Aliquid, tenetur voluptatum nihil vero ipsum accusantium itaque. Officia quisquam id eum aspernatur at nostrum doloremque illum molestiae aut, ex dolor, explicabo distinctio temporibus cupiditate repellendus perferendis expedita itaque eius accusantium reiciendis architecto. Nisi illum suscipit non, eum delectus recusandae nostrum nulla sapiente maxime qui vitae unde ut eos neque laborum in quos dicta. Totam magni minima distinctio natus autem, asperiores minus incidunt iste! </div>
-        <div class="div8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam ratione vitae est placeat! Recusandae nesciunt natus blanditiis quo eum sequi dolor odio harum maxime expedita, sunt fuga perferendis odit facilis sint dicta, rerum dolorum eaque doloribus ipsum enim obcaecati dolorem adipisci? Incidunt quasi minus, nobis quisquam consequatur accusantium et. </div>
-        <div class="div9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis aliquam id, fuga voluptatem, repellendus blanditiis quo nobis totam quam iure doloribus accusantium recusandae nemo repellat optio, in consequatur! Voluptatum vitae tempore fuga tenetur iusto tempora sequi, reiciendis excepturi amet repellat assumenda quo facere eligendi, aliquid harum quisquam consequatur aspernatur. Suscipit! </div>
-    </div>
-
-</section>jjhjkjjnjknk
+<section id="partGrille" >
+ 
+        <div id="firstTitle">
+            <h1>A LA DECOUVERTE DE NOS UNIVERS PRODUITS</h1>
+        </div>
+ 
+        <div class="big">
+ 
+            <div class="moyen">
+                <div class="unTrois">
+                    <div class="deuxUn">
+                        <div class="un"></div>
+                        <div class="un"></div>
+                    </div>
+                    <div class="deuxSeul"></div>
+                </div>
+                <div class="deuxBas"></div>
+            </div>
+            <div class="moyen">
+                <div class="partHaut">
+                    <div class="petit"></div>
+                    <div class="petit"></div>
+                </div>
+                <div class="partMilieu"></div>
+                <div class="partBas">
+                    <div class="petit"></div>
+                    <div class="petit"></div>
+                </div>
+            </div>
+ 
+        </div>
+ 
+ 
+    </section>
 

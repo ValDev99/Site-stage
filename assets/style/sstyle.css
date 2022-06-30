@@ -31,90 +31,100 @@
 /* FIN DU FOOTER /*
 /* PARTIE GRANDE GRILLE  */
 
-#grandeGrille {
+#partGrille {
     background-color: #333333;
-    height: 100vh;
 }
-#titreGrandeGrille {
-    text-align: center;
+#firstTitle {
     color: white;
-
+    text-align: center;
+    padding: 1vh;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
-
-.div1 {
-    grid-area: 1 / 1 / 2 / 2;
+.moyen {
+    display: flex;
+    flex-direction: column;
+}
+.unTrois {
+    display: flex;
+}
+.partHaut {
+    display: flex;
+}
+ 
+.partBas {
+    display: flex;
+}
+.deuxUn {
+    display: flex;
+    flex-direction: column;
+}
+.un{
+    height: 200px;
+    width: 200px;
     background-color: red;
+    margin: 20px;
 }
-.div2 {
-    grid-area: 2 / 1 / 3 / 2;
-    background-color: blue;
-}
-.div3 {
-    grid-area: 1 / 2 / 3 / 3;
-    background-color: green;
-}
-.div4 {
-    grid-area: 3 / 1 / 4 / 3;
+.deuxSeul {
+    height: 440px;
+    width: 200px;
     background-color: yellow;
+    margin: 20px;
 }
-.div5 {
-    grid-area: 1 / 3 / 2 / 4;
-    background-color: purple;
+.deuxBas {
+    height: 200px;
+    width: 440px;
+    background-color: burlywood;
+    margin: 20px;
 }
-.div6 {
-    grid-area: 1 / 4 / 2 / 5;
-    background-color: black;
-}
-.div7 {
-    grid-area: 2 / 3 / 3 / 5;
-    background-color: orange;
-}
-.div8 {
-    grid-area: 3 / 3 / 4 / 4;
+.petit{
+    height: 200px;
+    width: 200px;
     background-color: blue;
+    margin: 20px;
 }
-.div9 {
-    grid-area: 3 / 4 / 4 / 5;
-    background-color: green;
+.partMilieu {
+    height: 200px;
+    width: 440px;
+    background-color: purple;
+    margin: 20px;
 }
+
 /* FIN PARTIE GRILLE */
 /* DEBUT PARTIE PETITE GRILLE  */
-.parentDeux {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+.grilleTech {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
-.divUne {
-    grid-area: 1 / 1 / 3 / 3;
-    background-color: red;
+.threePart {
+    display: flex;
+    width: 100%;
 }
-.divDeux {
-    grid-area: 1 / 3 / 3 / 4;
-    background-color: blue;
+.HautUn {
+    height: 400px;
+    width: 60%;
+    background-color: antiquewhite;
+    margin: 20px;
 }
-.divTrois {
-    grid-area: 3 / 1 / 4 / 2;
-    background-color: green;
+.HautDeux {
+    height: 400px;
+    width: 40%;
+    background-color: antiquewhite;
+    margin: 20px;
 }
-.divQuatre {
-    grid-area: 3 / 2 / 4 / 3;
-    background-color: yellow;
+.MilieuUn {
+    height: 200px;
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 20px;
 }
-.divCinq {
-    grid-area: 3 / 3 / 4 / 4;
-    background-color: purple;
-}
-.divSix {
-    grid-area: 4 / 1 / 5 / 4;
-    background-color: black;
+#BasSeul{
+    height: 200px;
+    width: auto;
+    background-color: antiquewhite;
+    margin: 20px;
 }
