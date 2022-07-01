@@ -1,3 +1,84 @@
+/* DEBUT DE LA PAGE  */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    height: 7vh;
+}
+.topUn{
+    margin-left: 40px;
+    color: white;
+}
+.topDeux{
+    margin-right: 40px;
+    color: white;
+}
+#motJaune {
+    color: yellow;
+    font-weight: 700;
+}
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#imgHeader img{
+    width: 300px;
+    height: 100px;
+}
+/* FIN DE LA PAGE  */
+
+/* PARTIE AVEC MODULE INSTA  */
+
+.nosDerniereRea {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.partieDroiteRea {
+    background-color: #333333;
+    background-color: #f4f5f5;
+    width: 55%;
+    padding: 3vh;
+}
+
+.partieGaucheRea {
+    width: 35%;
+    margin-left: 10vh;
+
+}
+
+.nosDerniereRea h3 {
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.texteInsta {
+    text-align: end;
+    width: 78%;
+}
+
+.txtlogo {
+    display: flex;
+}
+
+.logoinsta {
+    display: flex;
+    justify-content: flex-end;
+    width: 22%;
+}
+
+.instainsta{
+    margin-left: 8px;
+}
+
+/* FIN PARTIE AVEC MODULE INSTA  */
 
 /* DEBUT DU FOOTER  */
 .footer {
@@ -8,84 +89,186 @@
     padding-top: 12vh;
     padding-bottom: 5vh;
 }
+
 .footer .footerOne {
     color: white;
 }
+
 .footer .footerTwo {
     color: grey;
     padding-top: 17px;
 }
+
 .all {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 8px;
-}
-.one {
-    width: 50px;
-    background-color: #efb74f;
-    margin: 5px;
     padding: 7px;
 }
+
+.one {
+    width: 10vh;
+    background-color: #efb74f;
+    margin: 3px;
+    padding: 5px;
+}
+
 /* FIN DU FOOTER /*
+
+/* Début du footerPart2 */
+
+.footerPart2 {
+    display: flex;
+    background-color: #f4f5f5;
+    padding: 50px;
+}
+
+.first50 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.Two50 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.texteOneAll {
+    width: 50%;
+
+}
+
+.logo {
+    width: 60%;
+}
+
+.logo img {
+    height: 97%;
+}
+
+.texteTwo {
+    width: 30%;
+}
+
+.texteThreeAll {
+    width: 40%;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Fin du footerPart2 */
+
+/* Début footerPart1 */
+
+.footerPart1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12vh;
+    padding-bottom: 3vh;
+    background-color: #333333;
+    color: white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    text-align: center;
+    border-style: none;
+}
+
+.card-img-top {
+    border-radius: 2vh;
+    width: 50%;
+}
+
+/* Début du footerBeta */
+.titrefooterBeta h1 {
+    text-align: center;
+    padding-bottom: 6vh;
+}
+
+.bTduCZ {
+    height: 37vh;
+}
+
+
+/* FIN DU FOOTER BETA  */
 /* PARTIE GRANDE GRILLE  */
 
 #partGrille {
     background-color: #333333;
 }
+
 #firstTitle {
     color: white;
     text-align: center;
     padding: 1vh;
 }
+
 .big {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+
 .moyen {
     display: flex;
     flex-direction: column;
 }
+
 .unTrois {
     display: flex;
 }
+
 .partHaut {
     display: flex;
 }
- 
+
 .partBas {
     display: flex;
 }
+
 .deuxUn {
     display: flex;
     flex-direction: column;
 }
-.un{
+
+.un {
     height: 200px;
     width: 200px;
     background-color: red;
     margin: 20px;
 }
+
 .deuxSeul {
     height: 440px;
     width: 200px;
     background-color: yellow;
     margin: 20px;
 }
+
 .deuxBas {
     height: 200px;
     width: 440px;
     background-color: burlywood;
     margin: 20px;
 }
-.petit{
+
+.petit {
     height: 200px;
     width: 200px;
     background-color: blue;
     margin: 20px;
 }
+
 .partMilieu {
     height: 200px;
     width: 440px;
@@ -100,31 +283,109 @@
     flex-direction: column;
     width: 100%;
 }
+
 .threePart {
     display: flex;
     width: 100%;
 }
+
 .HautUn {
     height: 400px;
     width: 60%;
     background-color: antiquewhite;
     margin: 20px;
 }
+
 .HautDeux {
     height: 400px;
     width: 40%;
     background-color: antiquewhite;
     margin: 20px;
 }
+
 .MilieuUn {
     height: 200px;
     width: 30%;
     background-color: antiquewhite;
     margin: 20px;
 }
-#BasSeul{
+
+#BasSeul {
     height: 200px;
     width: auto;
     background-color: antiquewhite;
     margin: 20px;
 }
+
+/* FIN PARTIE PETITE GRILLE  */
+
+/* DEBUT PARTIE INFO DES TECHS  */
+
+.pair {
+    height: 80vh;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.partUnPair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 3vh;
+    width: 40%;
+}
+
+.partDeuxPair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 3vh;
+    width: 60%;
+}
+
+.imgTechPair {
+    background-color: white;
+    height: 60%;
+}
+
+.impair {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.partUnImpair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333333;
+    font-size: 3vh;
+    width: 60%;
+}
+
+.partDeuxImpair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333333;
+    font-size: 3vh;
+    width: 40%;
+}
+
+.imgTechImpair {
+    background-color: #333333;
+    height: 60%;
+}
+
+/* FIN PARTIE INFO DES TECHS  */
+
