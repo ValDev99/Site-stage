@@ -3,7 +3,6 @@
         <h1>NOTRE MEILLEURE PUB : VOTRE SATISFACTION</h1>
     </div>
     <div id="commentary" class="elfsight-app-d3d994a4-be2c-460d-a6ae-9da521123bde"></div>
-    <div id="commentary" class="elfsight-app-d3d994a4-be2c-460d-a6ae-9da521123bde"></div>
 </div>
 
 <div class="footerPart1">
