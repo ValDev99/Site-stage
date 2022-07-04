@@ -17,7 +17,7 @@
   </div>
   <div class="flexHeader">
     <div>
-      <nav class="navbar bg-light">
+      <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#" id="imgHeader">
             <img src="./assets/style/logoHeader.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -32,41 +32,71 @@
     </div>
     </nav>
   </div>
-  <i class="fa-brands fa-facebook-square fa-2x" ></i>
 
 
   <!-- les deux parties séparées  -->
-
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              NOS PRODUITS
-            </a>
-            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> -->
-              <select name="" id="">
-                <option value="action">Action</a></option>
-                <option value="action">Another action</a></option>
-                <option value="action">Something else here</a></option>
-              </select>
-
-            <!-- </ul> -->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">DÉCOUVRIR LA FABRIQUE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NOS TECHNIQUES DE MARQUAGE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NOS MARQUES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FABRICATION SPÉCIALE MADE IN EUROPE</a>
-          </li>
-        </ul>
+  <div id="menuNav">
+    <nav class="navbar navbar-expand-lg nav nav-tabs" class="laNave">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" id="barreNav">
+            <ul class="navbar-nav" style="width: 100% ;">
+              <div class="flexNav">
+              <div class="partMenu">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">NOS PRODUITS</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                  </ul>
+                </li>
+              </div>
+              <div class="partMenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="petitMotNav">DÉCOUVRIR</span> <br> LA FABRIQUE</a>
+                </li>
+              </div>
+              <div class="partMenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="petitMotNav">NOS</span> <br> TECHNIQUES <span class="petitMotNav">DE MARQUAGE</span> </a>
+                </li>
+              </div>
+              <div class="partMenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <span class="petitMotNav">NOS</span> <br> MARQUES</a>
+                </li>
+              </div>
+              <div class="partMenu"  id="fabriqueSpe">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FABRICATION SPÉCIALE <br><span class="petitMotNav"> MADE IN EUROPE</span></a>
+                </li>
+              </div>
+              </div>
+            </ul>
+        </div>
       </div>
+    </nav>
+  </div>
+
+  <div class="imgheader">
+    <div class="imgheadertxt">
+      <span>HABILLER VOTRE <br>EQUIPE</span>
+      <p>Habillez et valorisez vos collaborateurs en leur offrant des vêtements<br> de grande qualité personnalisés avec votre logo. </p><br>
+      <button type="button"> S'ÉQUIPER </button>
     </div>
-  </nav>
+  </div>
