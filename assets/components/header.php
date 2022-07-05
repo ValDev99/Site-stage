@@ -36,61 +36,62 @@
 
   <!-- les deux parties séparées  -->
   <div id="menuNav">
-    <nav class="navbar navbar-expand-lg nav nav-tabs" class="laNave">
+    <nav class="navbar navbar-expand-lg nav nav-tabs" class="laNave" style="width: 90%;">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavDropdown" id="barreNav">
-            <ul class="navbar-nav" style="width: 100% ;">
-              <div class="flexNav">
-              <div class="partMenu">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">NOS PRODUITS</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                  </ul>
-                </li>
-              </div>
-              <div class="partMenu">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><span class="petitMotNav">DÉCOUVRIR</span> <br> LA FABRIQUE</a>
-                </li>
-              </div>
-              <div class="partMenu">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><span class="petitMotNav">NOS</span> <br> TECHNIQUES <span class="petitMotNav">DE MARQUAGE</span> </a>
-                </li>
-              </div>
-              <div class="partMenu">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> <span class="petitMotNav">NOS</span> <br> MARQUES</a>
-                </li>
-              </div>
-              <div class="partMenu"  id="fabriqueSpe">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">FABRICATION SPÉCIALE <br><span class="petitMotNav"> MADE IN EUROPE</span></a>
-                </li>
-              </div>
-              </div>
-            </ul>
+          <ul class="navbar-nav" style="width: 100% ;">
+            <div class="flexNav">
+              <li class="nav-item dropdown" style="width: 20%;">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">NOS PRODUITS</a>
+                <ul class="dropdown-menu" style="background-color: #333333;">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item" style="width: 20%;">
+                <a class="nav-link" href="#">
+                    <div class="tardLol">
+                      <div class="petitMotNav">
+                        DÉCOUVRIR
+                      </div> 
+                      <div id="tard">
+                        LA FABRIQUE
+                      </div> 
+                    </div>
+                </a>
+              </li>
+
+            <li class="nav-item" style="width: 20%;">
+              <a class="nav-link" href="#"><span class="petitMotNav">NOS</span> <br> TECHNIQUES <span class="petitMotNav">DE MARQUAGE</span> </a>
+            </li>
+            <li class="nav-item" style="width: 20%;">
+              <a class="nav-link" href="#"> <span class="petitMotNav">NOS</span> <br> MARQUES</a>
+            </li>
+            <li class="nav-item" id="fabriqueSpe" style="width: 20%;"> 
+              <a class="nav-link" href="#">FABRICATION SPÉCIALE <br><span class="petitMotNav"> MADE IN EUROPE</span></a>
+            </li>
         </div>
+        </ul>
       </div>
-    </nav>
+  </div>
+  </nav>
   </div>
 
   <div class="imgheader">
