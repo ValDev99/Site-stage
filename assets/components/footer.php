@@ -42,7 +42,7 @@
             <div class="texteOneHaut">
                 <strong> CONTACT <br> & DEVIS </strong><br><br>
                 LA FABRIQUE TEXTILE<br>
-                30, avenue du Général Leclerc
+                30, avenue du Général Leclerc <br>
                 54200 DOMMARTIN LES TOUL <br><br>
                 03 83 64 63 82 <br>
                 contact@lafabriquetextile.fr<br><br>

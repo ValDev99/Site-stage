@@ -1,10 +1,9 @@
 * {
+    
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 /* DEBUT DE LA PAGE  */
 
 .top{
@@ -116,7 +115,35 @@
     padding-bottom: 1vh;
     border: none;
   }
+  #barre {
 
+    border-style: none;
+    font-size: x-large;
+    font-family: Dancing Script;
+    color: grey;
+    margin-left: 5px;
+   
+}
+.form-control{
+    padding: 0rem;
+    
+}
+
+
+.d-flex {
+    border: black solid 3px;
+    
+}
+
+#tailleloupe {
+    display: flex;
+    justify-content:center ;
+    width: 8%;
+    height: 8%;
+    
+    margin-top: 5px;
+    margin-right: 7px;
+}
 
 /* FIN NAV  */
 
@@ -215,7 +242,7 @@
 .first50 {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
 
 }
 
@@ -226,18 +253,20 @@
 }
 
 .texteOneAll {
-    width: 50%;
+    width: 45%;
 
 }
 
 .logo {
-    width: 100%;
+    width: 50%;
 }
 
 .texteTwo {
     width: 30%;
 }
-
+.texteTwo li{
+    margin-bottom: 5px;
+}
 .texteThreeAll {
     width: 40%;
 }
@@ -301,6 +330,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 
 .moyen {
@@ -363,42 +393,21 @@
 /* FIN PARTIE GRILLE */
 /* DEBUT PARTIE PETITE GRILLE  */
 .grilleTech {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.partGrilleTech{
+    height: 700px;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-around;
 }
-
-.threePart {
-    display: flex;
-    width: 100%;
-}
-
-.HautUn {
-    height: 400px;
-    width: 60%;
-    background-color: antiquewhite;
-    margin: 20px;
-}
-
-.HautDeux {
-    height: 400px;
-    width: 40%;
-    background-color: antiquewhite;
-    margin: 20px;
-}
-
-.MilieuUn {
+.lesTech {
+    width: 500px;
     height: 200px;
-    width: 30%;
-    background-color: antiquewhite;
-    margin: 20px;
-}
-
-#BasSeul {
-    height: 200px;
-    width: auto;
-    background-color: antiquewhite;
-    margin: 20px;
+    background: url(../images/machine.jpg);
 }
 
 /* FIN PARTIE PETITE GRILLE  */
