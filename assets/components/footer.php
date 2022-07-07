@@ -36,7 +36,7 @@
 <div class="footerPart2">
     <div class="first50">
         <div class="logo">
-            <img src="./assets/style/logositeprojet.PNG">
+            <img src="./assets/images/LOGO FABRIQUE GRANd.png" style="width: 70%; height: auto;">
         </div>
         <div class="texteOneAll">
             <div class="texteOneHaut">

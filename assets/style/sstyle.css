@@ -1,3 +1,10 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* DEBUT DE LA PAGE  */
 
 .top{
@@ -89,7 +96,8 @@
 }
 
 .imgheader {
-    background-image: url("http://via.placeholder.com/1350x480");
+    background-image: url("../images/mainGauche.webp");
+    background-position: bottom;
     color: white;
   }
 
@@ -118,7 +126,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    font-family: Poppins-Bold;
+    margin-top: 40px;
 }
 
 .partieDroiteRea {
@@ -223,11 +231,7 @@
 }
 
 .logo {
-    width: 60%;
-}
-
-.logo img {
-    height: 97%;
+    width: 100%;
 }
 
 .texteTwo {
