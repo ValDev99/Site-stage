@@ -482,3 +482,44 @@
 
 /* FIN PARTIE INFO DES TECHS  */
 
+/* DÉBUT PARTIE GAMME PRODUITS */
+.troisParties {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titrePartie{
+    background-color: #333333;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+}
+.cinqModule{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.card-img-top {
+    border-radius: 0;
+}
+.carte {
+    margin-right: 1rem;
+}
+.titreCard {
+    font-size: 2rem;
+}
+.descCard {
+    font-size: 1rem;
+}
+.prixCard{
+    font-size: 0.7rem;
+}
+.carte img {
+    width: 100%;
+    background-color: #efb74f;
+}
+/* FIN PARTIE GAMME PRODUITS */
