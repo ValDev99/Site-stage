@@ -523,3 +523,105 @@
     background-color: #efb74f;
 }
 /* FIN PARTIE GAMME PRODUITS */
+
+/* DÉBUT PARTIE PRODUITS  */
+.produitstexte {
+    background-color: #f4f5f5;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: x-large;
+}
+
+.produitstexte h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.produittexte {
+    padding-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 1.9rem;
+
+}
+
+.ttcartes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+
+
+
+}
+
+.titreCorporate {
+    margin-bottom: 30px;
+    height: 100%;
+    margin-left: 51px;
+}
+
+.cardproduits {
+    justify-content: center;
+    margin: 5px;
+    width: 15rem;
+
+}
+
+.cardproduits img {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.ttcartes2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.card-img-top {
+    border-radius: 0rem;
+}
+
+.card-title {
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.titreEurope {
+    margin-bottom: 30px;
+    height: 100%;
+    margin-left: 51px;
+
+}
+
+.imageproduit {
+    height: 100%;
+    margin-left: 51px;
+
+}
+
+.workwear {
+    margin-bottom: 6rem;
+}
+
+.accessoire {
+    margin-bottom: 6rem;
+}
+
+.card-body .card-titleultime {
+
+    text-align: center;
+    margin-bottom: 6.5rem;
+    font-weight: 500;
+    font-size: 4vh;
+}
+
+/* FIN PARTIE PRODUITS  */
