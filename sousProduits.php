@@ -6,7 +6,7 @@
 <section class="troisParties">
 
     <div class="titrePartie">
-        SELECTION "1ER PRIX"
+        SELECTION <strong>"1ER PRIX"</strong> 
     </div>
     <div class="cinqModule">
         <div class="carte" style="width: 15rem;">
@@ -51,7 +51,7 @@
         </div>
     </div>
     <div class="titrePartie">
-        MEILLEUR RAPPORT QUALITÉ/PRIX
+        MEILLEUR RAPPORT <strong>QUALITÉ/PRIX</strong> 
     </div>
     <div class="cinqModule">
         <div class="carte" style="width: 15rem;">
@@ -96,7 +96,7 @@
         </div>
     </div>
     <div class="titrePartie">
-        SELECTION "PREMIUM"
+        SELECTION <strong>"PREMIUM"</strong> 
     </div>
     <div class="cinqModule">
         <div class="carte" style="width: 15rem;">
@@ -145,5 +145,5 @@
 </section>
 
 
-<?php require('./assets/components/footer.php'); ?>
+
 <?php require('./assets/components/footer.php'); ?>
