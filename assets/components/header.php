@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css"/>
+  <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/style/sstyle.css">
+  <link rel="stylesheet" href="./assets/style/ssstyle.css">
 </head>
 
 <body>
@@ -21,22 +21,97 @@
       <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#" id="imgHeader">
-            <img src="./assets/style/logoHeader.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <img src="./assets/images/LOGO LA FABRIQUE TEXTILE.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
           </a>
         </div>
     </div>
     <div>
-    <form class="d-flex" role="search">
-        <input id="barre" class="form-control me-2" type="search" placeholder="Recherche rapide" aria-label="Search" >
-        <input id ="tailleloupe" type="image" src="./assets/images/loupe site la fabrique textile.png" href="#">
+      <form class="d-flex" role="search">
+        <input id="barre" class="form-control me-2" type="search" placeholder="Recherche rapide" aria-label="Search">
+        <input id="tailleloupe" type="image" src="./assets/images/loupe site la fabrique textile.png" href="#">
       </form>
     </div>
     </nav>
   </div>
 
+  <style>
+    .sectionNav {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .newNav {
+      /* position: absolute;
+      top: 400px; */
+      display: flex;
+      justify-content: space-between;
+      background-color: #333333;
+    }
+    .newNavPart{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .bigWord {
+      font-size: 1.5rem;
+      margin-top: -10px;
+      margin-bottom: -10px;
+      font-weight: 600;
+    }
+    #endWord {
+      text-align: end;
+    }
+    #fabSpe{
+      background-color: #efb74f;
+      
+    }
+  </style>
+  <section class="sectionNav">
 
+    <div class="newNav">
+
+      <div class="newNavPart"><div class="bigWord">NOS PRODUITS</div> </div>
+      <div class="newNavPart" style="margin-top: -25px ;">
+        <div>
+          DÉCOUVRIR
+        </div>
+        <div class="bigWord">
+          LA FABRIQUE
+        </div>
+      </div>
+      <div class="newNavPart">
+        <div>
+          NOS
+        </div>
+        <div class="bigWord">
+          TECHNIQUES
+        </div>
+        <div id="endWord">
+          DE MARQUAGE
+        </div>
+      </div>
+      <div class="newNavPart" style="margin-top: -25px ;">
+        <div>
+          NOS
+        </div>
+        <div class="bigWord">
+          MARQUES
+        </div>
+      </div>
+      <div class="newNavPart" id="fabSpe" style="margin-bottom: -25px ;">
+        <div class="bigWord">
+          FABRICATION SPÉCIALE
+        </div>
+        <div>
+          MADE IN EUROPE
+        </div>
+      </div>
+
+    </div>
+
+  </section>
   <!-- les deux parties séparées  -->
-  <div id="menuNav">
+  <!-- <div id="menuNav">
     <nav class="navbar navbar-expand-lg nav nav-tabs" class="laNave" style="width: 90%;">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavDropdown" id="barreNav">
@@ -101,4 +176,4 @@
       <p>Habillez et valorisez vos collaborateurs en leur offrant des vêtements<br> de grande qualité personnalisés avec votre logo. </p><br>
       <button type="button"> S'ÉQUIPER </button>
     </div>
-  </div>
+  </div> -->
