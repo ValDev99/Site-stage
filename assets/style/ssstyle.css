@@ -621,3 +621,110 @@
 }
 
 /* FIN PARTIE PRODUITS  */
+
+/* PARTIE PRODUIT UNITAIRE  */
+
+.produitstext {
+    background-color: #f4f5f5;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.produitstext h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.produittext {
+    padding-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 1.9rem;
+
+}
+
+#imgprdfin {
+    height: 100vh;
+    padding: 50px;
+}
+
+.prodfinicont {
+    display: flex;
+    width: 100%;
+}
+
+.parttext {
+
+    margin-top: 50px;
+    width: 50%;
+    background-color: #f4f5f5;
+    padding: 40px;
+}
+
+.parttext .flex {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+    margin: 5px;
+}
+
+.ttflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ttmarquage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marquage {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.techmarquage {
+    display: flex;
+
+}
+
+.qtmarquage {
+    display: flex;
+    margin-right: 5px;
+
+
+}
+
+.quantiti {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    background: grey;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.btndevis{
+margin: 50px;
+
+}
+.btndevis a {
+background-color: #efb74f;
+color: black;
+font-size: 1.6rem;
+font-weight: 500;
+width: 100%;
+height: 50px;
+border-style: none;
+border-radius: 0;
+}
+
+/* FIN PARTIE PRODUIT UNITAIRE */

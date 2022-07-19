@@ -1,5 +1,89 @@
 <?php require('./assets/components/header.php'); ?>
 
+<div class="produitstext">
+    <div class="produittext">
+        <h2><strong>TITRE</strong></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignis-
+            sim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+            eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+            consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras</p>
+    </div>
+</div>
+<div class="prodfinicont">
+    <img src="https://fakeimg.pl/50x78/" class="card-img-top" id="imgprdfin" alt="...">
+    <div class="parttext">
+        <h2> PRODUIT REFERENCE X </h2><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed non risus. Suspendisse lectus tortor, dignissim sit amet
+        , adipiscing nec, ultricies sed, dolor. Cras elementum
+        ultrices diam. Maecenas ligula massa, varius a, semper
+        congue, euismod non, mi. Proin porttitor, orci nec nonummy
+        molestie, enim est eleifend mi, non fermentum diam nisl
+        <br><br>
+        <h5> 1/ CHOIX DE LA (OU DES) COULEUR(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
+        <div class="ttflex">
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+            <div class="flex"> </div>
+        </div>
+        <br><br>
+        <h5> 2/ ZONE(S) DE MARQUAGE(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
+        <div class="ttmarquage">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x130/" class="marquage" alt="...">
+        </div>
+        <br><br>
+        <h5> 3/ TECHNIQUE(S) DE MARQUAGE(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
+        <div class="techmarquage">
+            <img src="https://fakeimg.pl/130x100/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x100/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x100/" class="marquage" alt="...">
+            <img src="https://fakeimg.pl/130x100/" class="marquage" alt="...">
+        </div>
+        <br><br>
+        <h5> 4/ QUANTITÉS <i class="fa-solid fa-sort-down"></i> </h5><br>
+        <div class="qtmarquage">
+            <div class="quantiti"> >5 </div>
+            <div class="quantiti"> >10 </div>
+            <div class="quantiti"> >20 </div>
+            <div class="quantiti"> >50 </div>
+            <div class="quantiti"> >100 </div>
+            <div class="quantiti"> >200 </div>
+        </div>
+        <div class="btndevis">
+            <a class="btn btn-primary"  href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
+        </div>
+    </div>
+</div>
 
 
 <?php require('./assets/components/footer.php'); ?>
