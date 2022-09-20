@@ -17,7 +17,7 @@
     <div class="partieDroiteRea">
         <strong> LA FABRIQUE TEXTILE, POUR QUI, POUR QUOI ? </strong><br><br>
         Chez nous, à <strong>LA FABRIQUE TEXTILE</strong>, nous savons de quoi nous parlons, le textile
-        est dans nos gênes depuis plusieurs générations.
+        est dans nos gênes depuis plusieurs générations.    
         Nous personnalisons du textile et des accessoires textile pour les entreprises,
         les associations et les revendeurs des arts graphiques (agences de pub, etc.)
         dans notre atelier situé à Dommartin les Toul (54) en banlieue de Nancy.<br><br>

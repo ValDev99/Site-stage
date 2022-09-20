@@ -1,8 +1,16 @@
 <?php require('./assets/components/header.php'); ?>
 
-<h2>NOS T-SHIRTS</h2>
 
-
+<div class="produitstext">
+    <div class="produittext">
+        <h2><strong>TITRE</strong></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignis-
+            sim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+            eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+            consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras</p>
+        </div>
+    </div>
+    <!-- <h2>NOS T-SHIRTS</h2> -->
 <section class="troisParties">
 
     <div class="titrePartie">
