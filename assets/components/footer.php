@@ -6,30 +6,7 @@
 </div>
 
 <div class="footerPart1">
-    <div class="card" style="width: 18rem;">
-        <img src="./assets/style/logositeprojet.PNG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Personnalisation <strong>Française</strong> <br> & Fabrication spéciale <strong>Européenne</strong></p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="./assets/style/logositeprojet.PNG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Production à partir<br><strong>de 5 pièces</strong></p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="./assets/style/logositeprojet.PNG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Paiement 100% sécurisé <br><strong> Virement, CB, Paypal</strong></p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="./assets/style/logositeprojet.PNG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Devis & BAT<br><strong> GRATUITS</strong></p>
-        </div>
-    </div>
+    <img src="./assets/images/pictoFooter.png" alt="" style="width: 80%; height: 80%;">
 </div>
 
 
