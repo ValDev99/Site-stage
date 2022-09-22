@@ -156,7 +156,12 @@
     justify-content: space-between;
     margin-top: 100px;
 }
-
+.nosDerniereReaBis {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
 .partieDroiteRea {
     background-color: #333333;
     background-color: #f4f5f5;
@@ -167,12 +172,38 @@
     font-size: 1.44vw;
     
 }
+.texteDessousModuleBis {
+    background-color: #f4f5f5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2vh;
+}
+.partieDroiteReaBis {
+    padding: 3vh;
+    margin-top: 40px;
+}
+.deuxPhotos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.photoUnite img {
+    width: 300px;
+    height: 300px;
+}
 .partieGaucheRea {
     width: 35%;
     margin-left: 10vh;
-    margin-top: 100px;
     
+}
+.videoPresentation {
+    padding: 3vh;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .nosDerniereRea h3 {
@@ -685,7 +716,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.ttmarquage img {
+    width: 20vh;
+}
 .marquage {
     margin: 5px;
     border-radius: 5px;
@@ -693,9 +726,10 @@
 
 .techmarquage {
     display: flex;
-
 }
-
+.techmarquage img {
+    width: 20vh;
+}
 .qtmarquage {
     display: flex;
     margin-right: 5px;
@@ -707,7 +741,7 @@
     width: 90px;
     height: 50px;
     border-radius: 5px;
-    background: grey;
+    background: #333333;
     margin: 3px;
     text-align: center;
     color: white;
@@ -730,3 +764,64 @@ border-radius: 0;
 }
 
 /* FIN PARTIE PRODUIT UNITAIRE */
+
+/* DÉBUT PAGE PRODUITS EUROPE  */
+
+.produitstextbis{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.produitstextbis .produittextbis h2 {
+    font-size: 8vh;
+    text-align: center;
+}
+
+.produitstextbis .produittextbis {
+
+font-size: xx-large;
+background-color: yellow;
+}
+.produittextbis {
+     padding: 2%;
+    
+}
+
+.phrase{
+    padding: 4%;
+}
+
+.titrePartiebis{
+    background-color: yellow;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+
+}
+
+/* FIN PAGE PRODUITS EUROPE  */
+
+/* DÉBUT PAGE PRODUITS FINIS EUROPE  */
+
+.produitstextEurope {
+    background-color: #efb74f;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    padding: 1rem;
+}
+.produitstextEurope h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.ttmarquageEurope {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ttmarquageEurope img {
+    width: 20vh;
+}
+
+/* FIN PAGE PRODUITS FINIS EUROPE  */

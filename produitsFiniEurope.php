@@ -1,7 +1,8 @@
 <?php require('./assets/components/header.php'); ?>
 
-<div class="produitstext">
-    <div class="produittext">
+
+<div class="produitstextEurope">
+    <div class="produittextEurope">
         <h2><strong>TITRE</strong></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignis-
             sim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
@@ -51,8 +52,8 @@
         </div>
         <br><br>
         <h5> 2/ ZONE(S) DE MARQUAGE(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
-        <div class="ttmarquage">
-        <img src="./assets/images/coeur.png" class="marquage" alt="...">
+        <div class="ttmarquageEurope">
+            <img src="./assets/images/coeur.png" class="marquage" alt="...">
             <img src="./assets/images/inverseCoeur.png" class="marquage" alt="...">
             <img src="./assets/images/faceAvant.png" class="marquage" alt="...">
             <img src="./assets/images/hautDuDos.png" class="marquage" alt="...">
@@ -66,6 +67,7 @@
         <div class="techmarquage">
             <img src="./assets/images/impression.png" class="marquage" alt="...">
             <img src="./assets/images/broderie.png" class="marquage" alt="...">
+            
         </div>
         <br><br>
         <h5> 4/ QUANTITÉS <i class="fa-solid fa-sort-down"></i> </h5><br>
