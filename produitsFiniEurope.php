@@ -1,6 +1,6 @@
 <?php require('./assets/components/header.php'); ?>
 
-
+<!-- Version à jour  -->
 <div class="produitstextEurope">
     <div class="produittextEurope">
         <h2><strong>TITRE</strong></h2>
