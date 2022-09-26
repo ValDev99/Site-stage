@@ -12,3 +12,4 @@ require('./assets/components/header.php');
 require('./assets/components/footer.php');
 ?>
 
+<!-- j'ai merge le foot sur le main  -->
