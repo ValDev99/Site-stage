@@ -176,7 +176,8 @@
     background-color: #f4f5f5;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 2vh;
+    padding: 6vh;
+    font-size: x-large;
 }
 .partieDroiteReaBis {
     padding: 3vh;
@@ -194,8 +195,14 @@
 }
 .partieGaucheRea {
     width: 35%;
-    margin-left: 10vh;
-    
+    margin-left: 10vh;  
+}
+.partieGaucheReaBis {
+    width: 35%;
+    margin-left: 10vh;  
+}
+.partieGaucheRea h3 {
+    margin-top:100px ;
 }
 .videoPresentation {
     padding: 3vh;
@@ -233,13 +240,16 @@
 /* FIN PARTIE AVEC MODULE INSTA  */
 
 /* DEBUT DU FOOTER  */
+.footerBeta {
+    margin-top: 7rem;
+}
 .footer {
     background-color: #333333;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 12vh;
-    padding-bottom: 5vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
 .footer .footerOne {
@@ -249,21 +259,6 @@
 .footer .footerTwo {
     color: grey;
     padding-top: 17px;
-}
-
-.all {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 7px;
-}
-
-.one {
-    width: 10vh;
-    background-color: #efb74f;
-    margin: 3px;
-    padding: 5px;
 }
 
 /* FIN DU FOOTER /*
@@ -544,12 +539,15 @@
 }
 .titreCard {
     font-size: 2rem;
+    font-weight:700 ;
 }
 .descCard {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .prixCard{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 .carte img {
     width: 100%;
@@ -558,59 +556,55 @@
 /* FIN PARTIE GAMME PRODUITS */
 
 /* DÉBUT PARTIE PRODUITS  */
-.produitstexte {
+.produitstext {
     background-color: #f4f5f5;
     margin-top: 25px;
     margin-bottom: 40px;
-    font-size: x-large;
 }
 
-.produitstexte h2 {
+.produitstext .produittext h2 strong{
     text-align: center;
-    font-size: xx-large;
     margin-top: 10px;
+    font-size: 3rem;
 }
 
-.produittexte {
+.produittext {
     padding-top: 10px;
     font-weight: 500;
     margin-left: 40px;
     margin-right: 40px;
     padding-bottom: 20px;
-    line-height: 1.9rem;
-
 }
-
+.allProd {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
 .ttcartes {
     display: flex;
-    justify-content: center;
     margin-bottom: 20px;
 }
 
 .titreCorporate {
     margin-bottom: 30px;
     height: 100%;
-    margin-left: 51px;
+    
 }
 
 .cardproduits {
     justify-content: center;
     margin: 5px;
     width: 15rem;
-
 }
 
 .cardproduits img {
     width: 100%;
 }
 
-.card-title {
-    text-align: center;
-}
 
 .ttcartes2 {
     display: flex;
-    justify-content: center;
     margin-bottom: 6rem;
 }
 
@@ -621,20 +615,17 @@
 .card-title {
     margin-top: 9px;
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 3vh;
+    text-align: center;
 }
 
 .titreEurope {
     margin-bottom: 30px;
-    height: 100%;
-    margin-left: 51px;
-
+   
 }
 
 .imageproduit {
     height: 100%;
-    margin-left: 51px;
-
 }
 
 .workwear {
@@ -693,11 +684,14 @@
 .parttext {
 
     margin-top: 50px;
-    width: 50%;
+    width: 60%;
     background-color: #f4f5f5;
     padding: 40px;
 }
-
+.parttext h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
 .parttext .flex {
 
     width: 40px;
@@ -749,18 +743,20 @@
     font-weight: 500;
 }
 .btndevis{
-margin: 50px;
+margin-top: 1.5rem;
+text-align:end;
 
 }
 .btndevis a {
 background-color: #efb74f;
 color: black;
-font-size: 1.6rem;
-font-weight: 500;
-width: 100%;
-height: 50px;
+font-size: 2rem;
+font-weight: 700;
+width: 80%;
+padding: 1.5rem;
 border-style: none;
 border-radius: 0;
+margin-right:22vh ;
 }
 
 /* FIN PARTIE PRODUIT UNITAIRE */
@@ -779,7 +775,7 @@ border-radius: 0;
 .produitstextbis .produittextbis {
 
 font-size: xx-large;
-background-color: yellow;
+background-color: #efb74f;
 }
 .produittextbis {
      padding: 2%;
@@ -791,7 +787,7 @@ background-color: yellow;
 }
 
 .titrePartiebis{
-    background-color: yellow;
+    background-color: #efb74f;
     color: black;
     font-size: 2.5rem;
     text-align: center;

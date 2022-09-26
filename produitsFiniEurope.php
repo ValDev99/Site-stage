@@ -79,10 +79,10 @@
             <div class="quantiti"> >100 </div>
             <div class="quantiti"> >200 </div>
         </div>
-        <div class="btndevis">
-            <a class="btn btn-primary"  href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
-        </div>
     </div>
+</div>
+<div class="btndevis">
+    <a class="btn btn-primary"  href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
 </div>
 
 

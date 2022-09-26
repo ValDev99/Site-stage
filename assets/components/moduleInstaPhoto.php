@@ -1,5 +1,5 @@
 <div class="nosDerniereReaBis" style="display: flex;">
-    <div class="partieGaucheRea">
+    <div class="partieGaucheReaBis">
         <h3><strong>NOS DERNIERES REALISATIONS</strong></h3>
         <div class="elfsight-app-bbba6afc-2657-4dcf-bcb8-33141174efd0"></div>
         <div class="txtlogo">

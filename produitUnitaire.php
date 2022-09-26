@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="prodfinicont">
-    <img src="https://fakeimg.pl/50x78/" class="card-img-top" id="imgprdfin" alt="...">
+    <img src="https://fakeimg.pl/70x78/" class="card-img-top" id="imgprdfin" alt="...">
     <div class="parttext">
         <h2> PRODUIT REFERENCE X </h2><br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -52,7 +52,7 @@
         <br><br>
         <h5> 2/ ZONE(S) DE MARQUAGE(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
         <div class="ttmarquage">
-        <img src="./assets/images/coeur.png" class="marquage" alt="...">
+            <img src="./assets/images/coeur.png" class="marquage" alt="...">
             <img src="./assets/images/inverseCoeur.png" class="marquage" alt="...">
             <img src="./assets/images/faceAvant.png" class="marquage" alt="...">
             <img src="./assets/images/hautDuDos.png" class="marquage" alt="...">
@@ -77,10 +77,10 @@
             <div class="quantiti"> >100 </div>
             <div class="quantiti"> >200 </div>
         </div>
-        <div class="btndevis">
-            <a class="btn btn-primary"  href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
-        </div>
     </div>
+</div>
+<div class="btndevis">
+    <a class="btn btn-primary" href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
 </div>
 
 

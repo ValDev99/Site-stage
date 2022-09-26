@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/style/sstyle.css">
+  <link rel="stylesheet" href="./assets/style/ssstyle.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div>
       <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" id="imgHeader">
+          <a class="navbar-brand" href="index.php" id="imgHeader">
             <img src="./assets/images/LOGO LA FABRIQUE TEXTILE.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
           </a>
         </div>
@@ -45,14 +45,14 @@
               <li class="nav-item dropdown" style="width: 20%;">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">NOS PRODUITS</a>
                 <ul class="dropdown-menu" style="background-color: #333333;">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="produits.php">Produits</a></li>
+                  <li><a class="dropdown-item" href="sousProduits.php">Sous Produits</a></li>
+                  <li><a class="dropdown-item" href="produitUnitaire.php">Produits Finis</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="produitsEurope.php">Produits Europe</a></li>
+                  <li><a class="dropdown-item" href="produitsFiniEurope.php"> Produits Finis Europe</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                   <li>
                     <hr class="dropdown-divider">
@@ -67,7 +67,7 @@
               </li>
 
               <li class="nav-item" style="width: 20%;">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="decouvrir.php">
                     <div class="tardLol">
                       <div class="petitMotNav">
                         DÉCOUVRIR
@@ -80,7 +80,7 @@
               </li>
 
             <li class="nav-item" style="width: 20%;">
-              <a class="nav-link" href="#"><span class="petitMotNav">NOS</span> <br> TECHNIQUES <span class="petitMotNav">DE MARQUAGE</span> </a>
+              <a class="nav-link" href="nosTechniques.php"><span class="petitMotNav">NOS</span> <br> TECHNIQUES <span class="petitMotNav">DE MARQUAGE</span> </a>
             </li>
             <li class="nav-item" style="width: 20%;">
               <a class="nav-link" href="#"> <span class="petitMotNav">NOS</span> <br> MARQUES</a>

@@ -78,30 +78,6 @@
     <div class="footerTwo">
         Mentions légales / CGV / Confidentialité / Questions
     </div>
-
-
-    <div class="all">
-        <div class="one">
-            davide
-        </div>
-        <div class="one">
-            sofian
-        </div>
-        <div class="one">
-            threek
-        </div>
-
-        <div class="one">
-            fire
-        </div>
-        <div class="one">
-            fier
-        </div>
-        <div class="one">
-            fist
-        </div>
-    </div>
-
 </div>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script src="https://kit.fontawesome.com/3a62503aaf.js" crossorigin="anonymous"></script>

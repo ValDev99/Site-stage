@@ -10,11 +10,11 @@
             consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras</p>
     </div>
 </div>
-<div class="phrase">
-<h2><strong>NOS PRODUITS FABRIQUÉS DANS NOTRE ATELIER EUROPÉEN</strong></h2>
-</div>
 <!-- <h2>NOS T-SHIRTS</h2> -->
 <section class="troisParties">
+    <div class="phrase">
+    <h2><strong>NOS PRODUITS FABRIQUÉS DANS NOTRE ATELIER EUROPÉEN</strong></h2>
+    </div>
 
     <div class="titrePartiebis">
          <strong>CORPORATE</strong>
