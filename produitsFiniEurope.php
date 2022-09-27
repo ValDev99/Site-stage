@@ -53,7 +53,7 @@
         <br><br>
         <h5> 2/ ZONE(S) DE MARQUAGE(S) <i class="fa-solid fa-sort-down"></i> </h5><br>
         <div class="ttmarquageEurope">
-            <img src="./assets/images/coeur.png" class="marquage" alt="...">
+            <img src="./assets/images/coeur.png" onclick="select()"  class="marquage" alt="...">
             <img src="./assets/images/inverseCoeur.png" class="marquage" alt="...">
             <img src="./assets/images/faceAvant.png" class="marquage" alt="...">
             <img src="./assets/images/hautDuDos.png" class="marquage" alt="...">
