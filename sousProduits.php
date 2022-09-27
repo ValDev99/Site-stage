@@ -1,4 +1,4 @@
-<?php require('./assets/components/header.php'); ?>
+<?php require('./assets/components/header.html'); ?>
 
 
 <div class="produitstext">
@@ -154,4 +154,4 @@
 
 
 
-<?php require('./assets/components/footer.php'); ?>
+<?php require('./assets/components/footer.html'); ?>

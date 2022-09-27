@@ -1,12 +1,12 @@
 <?php
-require('./assets/components/header.php');
+require('./assets/components/header.html');
 ?>
 
 
-<?php require('./assets/components/moduleInstaPhoto.php'); ?>
-<?php require('./assets/components/grandeGrille.php'); ?>
+<?php require('./assets/components/moduleInstaPhoto.html'); ?>
+<?php require('./assets/components/grandeGrille.html'); ?>
 
 
 <?php
-require('./assets/components/footer.php');
+require('./assets/components/footer.html');
 ?>

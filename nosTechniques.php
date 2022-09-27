@@ -1,11 +1,11 @@
 <?php
-require('./assets/components/header.php');
+require('./assets/components/header.html');
 ?>
 
-<?php require ('./assets/components/petiteGrille.php') ;?>
-<?php require ('./assets/components/bioTech.php') ;?>
-<?php require ('./assets/components/grandeGrille.php') ;?>
+<?php require ('./assets/components/petiteGrille.html') ;?>
+<?php require ('./assets/components/bioTech.html') ;?>
+<?php require ('./assets/components/grandeGrille.html') ;?>
 
 <?php
-require('./assets/components/footer.php');
+require('./assets/components/footer.html');
 ?>

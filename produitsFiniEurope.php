@@ -1,4 +1,4 @@
-<?php require('./assets/components/header.php'); ?>
+<?php require('./assets/components/header.html'); ?>
 
 <!-- Version à jour  -->
 <div class="produitstextEurope">
@@ -86,4 +86,4 @@
 </div>
 
 
-<?php require('./assets/components/footer.php'); ?>
+<?php require('./assets/components/footer.html'); ?>
