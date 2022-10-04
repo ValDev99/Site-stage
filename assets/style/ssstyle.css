@@ -339,11 +339,6 @@
     padding-bottom: 6vh;
 }
 
-.bTduCZ {
-    height: 37vh;
-}
-
-
 /* FIN DU FOOTER BETA  */
 /* PARTIE GRANDE GRILLE  */
 
@@ -759,10 +754,10 @@ border-radius: 0;
 margin-right:22vh ;
 }
 .modal {
-    margin-top: 20vh;
+    padding-top: 3vw;
   display: none;
   position: fixed;
-  z-index: 8;
+  z-index: 30;
   left: 0;
   top: 0;
   width: 100%;
