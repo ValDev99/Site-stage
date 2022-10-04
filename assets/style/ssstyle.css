@@ -758,7 +758,117 @@ border-style: none;
 border-radius: 0;
 margin-right:22vh ;
 }
+.modal {
+    margin-top: 20vh;
+  display: none;
+  position: fixed;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  margin: 50px auto;
+  border: 1px solid #999;
+  width: 60%;
+  text-align: end;
+    margin-top: 1.5rem;
+   
+}
+h2,
+p {
+  margin: 0 0 20px;
+  font-weight: 400;
+  
+}
+span {
+  
+  display: block;
+  padding: 0 0 5px;
+}
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #eee;
+}
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
 
+.contact-form{
+   
+    border: 5px solid #efb74f;
+}
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #1c87c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact-form button:hover{
+    background: #efb74f;
+    color: #1c87c9;
+    font-weight:700 ;
+}
+
+button:hover {
+  background: #2371a0;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button.button {
+    background-color: #efb74f;
+        color: black;
+        font-size: 2rem;
+        font-weight: 700;
+        width: 100%;
+        padding: 1.5rem;
+        border-style: none;
+        border-radius: 0;
+        margin-top: 20px;
+        cursor: pointer;
+}
+button.button:hover {
+  background: #1c87c9;
+  color: white;
+}
+
+a.close{
+    text-decoration: none;
+    padding: 3px;
+}
+
+form h2{
+    color: #1c87c9;
+}
+
+form span{
+    color: #1c87c9;
+}
 /* FIN PARTIE PRODUIT UNITAIRE */
 
 /* DÉBUT PAGE PRODUITS EUROPE  */
