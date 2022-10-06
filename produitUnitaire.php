@@ -79,9 +79,28 @@
         </div>
     </div>
 </div>
-<div class="btndevis">
-    <a class="btn btn-primary" href="#" role="button">AJOUTER A MA DEMANDE DE DEVIS</a>
-</div>
+<button class="button" data-modal="modalOne">AJOUTER A MA DEMANDE DE DEVIS</button>
+    </p>
+    <div id="modalOne" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+          <a class="close">&times;</a>
+          <form action="/" class="module">
+            <h2>DEMANDE DE DEVIS</h2>
+            <div class="mod">
+              <input class="fname" type="text" name="name" placeholder="Nom" />
+              <input type="email" name="name" placeholder="Email" />
+              <input type="tel" name="name" placeholder="Numéro de téléphone" />
+            </div>
+            <span>Message</span>
+            <div>
+              <textarea rows="4" placeholder="Des précisions ?..." ></textarea>
+            </div>
+            <button type="submit" href="/">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
 <?php require('./assets/components/footer.html'); ?>

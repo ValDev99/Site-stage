@@ -119,8 +119,8 @@
   #barre {
 
     border-style: none;
-    font-size: x-large;
-    font-family: Dancing Script;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
     color: grey;
     margin-left: 5px;
    
@@ -129,7 +129,6 @@
     padding: 0rem;
     
 }
-
 
 .d-flex {
     border: black solid 3px;
@@ -141,7 +140,6 @@
     justify-content:center ;
     width: 8%;
     height: 8%;
-    
     margin-top: 5px;
     margin-right: 7px;
 } */
@@ -785,21 +783,26 @@ span {
   display: block;
   padding: 0 0 5px;
 }
-form {
+.module form {
   padding: 25px;
   margin: 25px;
   box-shadow: 0 2px 5px #f5f5f5;
   background: #eee;
 }
-input,
+
+.mod input,
 textarea {
   width: 90%;
-  padding: 10px;
+  padding: 25px;
+  margin: 25px;
   margin-bottom: 20px;
   border: 1px solid #1c87c9;
   outline: none;
 }
-
+.module span{
+    text-align: left;
+    margin-left: 4vw;
+}
 .contact-form{
    
     border: 5px solid #efb74f;

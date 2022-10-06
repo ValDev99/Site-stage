@@ -87,9 +87,9 @@
       <div class="modal-content">
         <div class="contact-form">
           <a class="close">&times;</a>
-          <form action="/">
+          <form action="/" class="module">
             <h2>DEMANDE DE DEVIS</h2>
-            <div>
+            <div class="mod">
               <input class="fname" type="text" name="name" placeholder="Nom" />
               <input type="email" name="name" placeholder="Email" />
               <input type="tel" name="name" placeholder="Numéro de téléphone" />
